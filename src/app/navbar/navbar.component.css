@@ -1,0 +1,51 @@
+
+   .logo-py-4{
+     width: 300px;
+     padding-top: 5px;
+     padding-bottom: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     background-color: black;
+    
+   }
+
+   .mat-icon{
+     vertical-align: center;
+   }
+
+   .mat-list-item{
+     color: rgb(224, 219, 227);
+     font-size: 0.8rem;
+     height: 44px !important;
+     margin-bottom: 4px;
+     border-radius: 5px;
+     margin: 0 8px;
+    
+     
+   }
+
+   .list-item-active{
+     color: aliceblue !important;
+     ::ng-deep{
+       .mat-list-item-content{
+         background: black !important;
+         &:hover{
+           background: black;
+         }
+       }
+     }
+   }
+
+   .mat-subheader{
+     color:rgb(239, 236, 241);
+     font-size: 0.6rem;
+     font-weight: 100;
+     letter-spacing: 1px;
+   }
+
+    
+.heading1{
+  font-weight: 800;
+  margin-left: 25px;
+ padding-top: 25px;
+}

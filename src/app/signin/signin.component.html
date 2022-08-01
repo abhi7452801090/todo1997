@@ -1,0 +1,29 @@
+<h2 mat-dialog-title>Add Form</h2>
+
+  <mat-card>
+    <form [formGroup]="todoForm">
+    <mat-form-field appearance="fill">
+        <mat-label>Task Title</mat-label>
+        <input formControlName="item" matInput placeholder="Placeholder">
+      </mat-form-field><br>
+      <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Task Description </mat-label>
+        <textarea matInput formControlName="itemm" matInput placeholder="Placeholder"></textarea>
+      </mat-form-field><br>
+      <!-- <mat-form-field appearance="fill">
+        <mat-label>Priority</mat-label>
+        <mat-select>
+          <mat-option value="one">Average</mat-option>
+          <mat-option value="two">High</mat-option>
+          <mat-option value="two">Critical</mat-option>
+        </mat-select>
+      </mat-form-field> -->
+    
+
+
+  <button (click)="addTask()" mat-raised-button  color="primary">Add</button>
+   
+  <button  routerLink="/login" mat-button mat-dialog-close>Cancel</button>
+
+</form>
+</mat-card>

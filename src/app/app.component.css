@@ -1,0 +1,14 @@
+:host{
+  display:files;
+  height: 100%;
+}
+
+.mat-drawer{
+width: 300px;
+/* background: linear-gradient(180deg, rgb(233, 54, 183) 0%, rgba(70, 156, 209, 0.934) 100%); */
+
+}
+
+.mat-drawer-container{
+  height: 100%;
+}
